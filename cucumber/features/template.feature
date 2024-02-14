@@ -1,6 +1,8 @@
-Feature: Cookiecutter
+Feature: Walk through level 0
+  As a vigilante I want to walk through an empty level with a health of 10 reaching the end in three steps 
 
-Scenario: It works!
-	Given the template works
-	When the user tries to take half of 2
-    Then the result is 1
+Scenario: Walk through level 0 in three steps
+	Given a vigilante with a health of 10
+	And the level has three empty tiles
+	When the game starts
+	Then the vigilante will reach the end in three steps
