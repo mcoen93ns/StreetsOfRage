@@ -30,3 +30,10 @@ Hero moves from left to right
 If hero dies (health = 0) game is over
 
 Waves of enemies, with at least three empty tiles in between the waves
+
+--------------------------------
+# 🍅
+First tests with empty levels:
+- ✅ Empty level, without any tiles: no steps
+- ✅ One empty tile: one step
+- ✅ Five empty tiles: five steps

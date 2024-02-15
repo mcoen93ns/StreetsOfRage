@@ -4,5 +4,5 @@ Feature: Walk through level 0
 Scenario: Walk through level 0 in three steps
 	Given a vigilante with a health of 10
 	And the level has three empty tiles
-	When the game starts
-	Then the vigilante will reach the end in three steps
+	When the level is played
+	Then the user reaches the end in three steps
