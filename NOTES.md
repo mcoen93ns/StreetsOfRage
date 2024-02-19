@@ -37,3 +37,4 @@ First tests with empty levels:
 - ✅ Empty level, without any tiles: no steps
 - ✅ One empty tile: one step
 - ✅ Five empty tiles: five steps
+

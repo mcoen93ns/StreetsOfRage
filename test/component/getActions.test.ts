@@ -15,4 +15,9 @@ describe("This is a function that shows the actions that need to be taken by a v
       ).toEqual("-----");
     });
   });
+  describe('Sample tests', () => { 
+    it('Short waves', () => {  
+      act(10, [[2, 2], [2, 2], [2, 2]]);
+    });
 });
+
