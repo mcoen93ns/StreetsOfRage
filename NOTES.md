@@ -38,3 +38,11 @@ First tests with empty levels:
 - ✅ One empty tile: one step
 - ✅ Five empty tiles: five steps
 
+# End to end test level 1
+✅ - Create test setup (feature and steps)
+✅ - Edit test to eventually make it red, increase size of level and add assertions
+✅ - Replace pseudocode with real implementation
+
+## Components
+🙌 - [2,2] --> B
+- [1010101,20299281092] --> B

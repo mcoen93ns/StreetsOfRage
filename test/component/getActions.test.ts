@@ -15,9 +15,9 @@ describe("This is a function that shows the actions that need to be taken by a v
       ).toEqual("-----");
     });
   });
-  describe('Sample tests', () => { 
-    it('Short waves', () => {  
-      act(10, [[2, 2], [2, 2], [2, 2]]);
+  describe("Now it starts to get exciting, we approach enemies! Like ze Germans!", () => {
+    it("When our strong and mighty vigilante approaches a weak german with a health and attack of 2, we beat him up with a B", () => {
+      expect(getActions(10, [[2, 2]])).toBe('B');
     });
+  });
 });
-
